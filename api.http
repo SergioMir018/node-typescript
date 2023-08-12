@@ -1,0 +1,14 @@
+### Get all entries
+GET http://localhost:3000/api/diaries
+
+
+### Create a new diary entry
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+  "date": "2023-08-12",
+  "weather": "sunny",
+  "visibility": "good",
+  "comment": "This is the weather comment for the weather entry"
+}
