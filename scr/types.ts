@@ -1,5 +1,4 @@
-export type Weather = 'sunny' | 'rainy' | 'cloudy' | 'windy' | 'stormy'
-export type Visibility = 'good' | 'great' | 'poor' | 'danger'
+import { Visibility, Weather } from './enums'
 
 export interface DiaryEntry {
   id: number
